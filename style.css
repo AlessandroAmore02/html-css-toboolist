@@ -1,0 +1,127 @@
+/* Eliminare spazi non gestiti */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header con logo */
+.page-header {
+    padding: 10px;
+    background-color: white;
+}
+
+/* Sfondo */
+body {
+    background-color: #F6F8F9;
+}
+
+
+/* Riquadro con all'interno la lista */
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 3px;
+    padding-left: 40px;
+}
+
+/* Riquadro sopra il container principale */
+.container.container-header {
+    padding: 10px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+
+
+/* Bottone blu */
+.add-class.button-blue {
+    background-color: #14AAF5;
+    margin-right: 5px;
+    border-color: white;
+
+}
+
+
+/* Stile bottoni base */
+.add-class {
+    border: solid;
+    border-color: grey;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+
+/* Titoli di inizio lista */
+.list-title {
+    color: #434851;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+
+/* Base box di elemento lista */
+.box {
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 8px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+
+/* Box specifici con colori diversi */
+.box-editorial {
+    background-color: #0AA9ED;
+}
+
+
+.box-goals {
+    background-color: #AD77E6;
+}
+
+
+.box-recruiting {
+    background-color: #37C6AC;
+}
+
+.box-mobile {
+    background-color: #FE9E44;
+}
+
+
+.box-website {
+    background-color: #ED5D9D;
+}
+
+.box-sales {
+    background-color: #A3D228;
+}
+
+
+/* Rimozione elenco puntato dalla lista */
+ul {
+    list-style-type: none;
+}
+
+
+/* Spaziatura tra li e aggiunta font */
+li {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #494E56;
+
+}
+
+/* Colore alla x e grandezza */
+.x {
+    color: red;
+    font-size: 25px;
+}
