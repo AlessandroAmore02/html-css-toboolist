@@ -120,8 +120,20 @@ li {
 
 }
 
-/* Colore alla x e grandezza */
+/* Simboli */
 .x {
     color: red;
-    font-size: 25px;
+}
+
+
+.simbol {
+    width: 15px;
+    border: solid;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+
+.checkmark {
+    color: green;
 }
